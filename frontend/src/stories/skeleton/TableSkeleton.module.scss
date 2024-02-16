@@ -1,0 +1,28 @@
+@keyframes loading {
+  0% {
+    background-color: #f6f7f8;
+  }
+  50% {
+    background-color: #edeef0;
+  }
+  100% {
+    background-color: #f6f7f8;
+  }
+}
+
+.skeletonRectangle, .skeletonCircle {
+  animation: loading 1.5s infinite;
+}
+
+.skeletonRectangle {
+  width: 150px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.skeletonCircle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+

@@ -1,0 +1,32 @@
+/* Board */
+.board {
+display:flex;
+flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(210, 210, 210, 1);
+}
+
+.CardLoginContainer {
+  display:flex;
+  justify-content: flex-end;
+  width: 1189px;
+  height: 403px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.rectangle {
+  width: 528px;
+  height: 403px;
+  border-radius: 0px 25px 25px 0px;
+  background-color: rgba(177, 178, 181, 1);
+}
+
+.logoPng {
+  width: 197px;
+  height: 197px;
+  background-color: rgba(245, 183, 234, 1);
+}

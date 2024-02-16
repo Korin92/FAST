@@ -1,0 +1,22 @@
+
+.navbar {
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+
+  ul {
+    display: flex;
+    list-style: none;
+  }
+
+  a {
+    color: #fff;
+    margin-right: 1.5rem;
+    text-decoration: none;
+
+    &:hover {
+      color: #ddd;
+    }
+  }
+}
